@@ -20,7 +20,7 @@ Ten en cuenta que este script utiliza comandos y herramientas específicas de Li
 3. Ejecuta el siguiente comando para otorgar permisos de ejecución al archivo:
 
     ```shell
-    chmod +x HostDiscovery.sh
+    chmod +x HostDiscover.sh
     ```
 
 4. Una vez que hayas otorgado los permisos de ejecución, ejecuta el script utilizando el siguiente comando:
