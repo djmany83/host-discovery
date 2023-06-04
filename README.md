@@ -1,6 +1,6 @@
 # Host Discovery
 
-Este repositorio contiene un script de Bash llamado HostDiscovery.sh que te permite descubrir y enumerar los dispositivos activos en tu red local.
+Este repositorio contiene un script de Bash llamado HostDiscover.sh que te permite descubrir y enumerar los dispositivos activos en tu red local.
 
 ## Requisitos previos
 
@@ -10,7 +10,7 @@ Este repositorio contiene un script de Bash llamado HostDiscovery.sh que te perm
 ## Instrucciones de uso
 
 1. Clona o descarga este repositorio en tu máquina local.
-2. Abre una terminal y navega hasta el directorio donde se encuentra el archivo HostDiscovery.sh.
+2. Abre una terminal y navega hasta el directorio donde se encuentra el archivo HostDiscover.sh.
 3. Ejecuta el siguiente comando para otorgar permisos de ejecución al archivo:
 
     ```shell
@@ -20,13 +20,21 @@ Este repositorio contiene un script de Bash llamado HostDiscovery.sh que te perm
 4. Una vez que hayas otorgado los permisos de ejecución, ejecuta el script utilizando el siguiente comando:
 
     ```shell
-    ./HostDiscovery.sh
+    ./HostDiscover.sh
     ```
 
-    Esto iniciará el escaneo de la red local y mostrará la información de los dispositivos activos, como la dirección IP, el estado, la dirección MAC y el sistema operativo (Linux, Windows, u otro).
+    Esto iniciará el escaneo de la red local y mostrará la información de los dispositivos activos, como la dirección IP, el estado, la dirección MAC y el sistema operativo (Unix, Windows, u otro).
 
 5. Espera a que el script finalice y observe los resultados en la terminal.
 
+    ```shell
+    Host: 10.0.0.21  - Estado: ACTIVO  - MAC: B8:AC:6F:A7:53:44 - Sistema: Windows
+    Host: 10.0.0.6   - Estado: ACTIVO  - MAC: 3C:52:82:B4:5A:5F - Sistema: Windows
+    Host: 10.0.0.17  - Estado: ACTIVO  - MAC: DC:A6:32:82:DA:CA - Sistema: Unix
+    Host: 10.0.0.8   - Estado: ACTIVO  - MAC: DA:54:AA:BD:69:16 - Sistema: Unix
+    Host: 10.0.0.16  - Estado: ACTIVO  - MAC: 6A:22:BD:94:AD:36 - Sistema: Unix
+    Host: 10.0.0.3   - Estado: ACTIVO  - MAC: F6:56:86:DC:6A:B1 - Sistema: Unix
+    ```
 ## Notas adicionales
 
 - Asegúrate de que tu sistema esté conectado a la red local antes de ejecutar el script.
