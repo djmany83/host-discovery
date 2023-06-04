@@ -2,8 +2,6 @@
 
 Este repositorio contiene un script de Bash llamado HostDiscover.sh que te permite descubrir y enumerar los dispositivos activos en tu red local.
 
-## Requisitos previos
-
 ## Compatibilidad y Pruebas
 
 Este script ha sido probado en el sistema operativo **KaliLinux 2023.2** y se ha verificado su funcionamiento correctamente en esta plataforma. 
