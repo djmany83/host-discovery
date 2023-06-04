@@ -4,6 +4,14 @@ Este repositorio contiene un script de Bash llamado HostDiscover.sh que te permi
 
 ## Requisitos previos
 
+## Compatibilidad y Pruebas
+
+Este script ha sido probado en el sistema operativo **KaliLinux 2023.2** y se ha verificado su funcionamiento correctamente en esta plataforma. 
+Aunque se ha probado específicamente en **KaliLinux**, el script debería funcionar en otros sistemas operativos basados en **Unix** que cuenten con los comandos y herramientas necesarios.
+
+Si encuentras algún problema o tienes dificultades para ejecutar el script en tu entorno específico, no dudes en abrir un problema o solicitud de mejora en este repositorio.
+Ten en cuenta que este script utiliza comandos y herramientas específicas de Linux, por lo que su compatibilidad con otros sistemas operativos puede variar.
+
 - Se requiere tener Bash instalado en tu sistema.
 - Debes conceder permisos de ejecución al archivo HostDiscovery.sh antes de ejecutarlo.
 
