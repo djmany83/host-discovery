@@ -1,16 +1,15 @@
 #!/bin/bash
 
-if [ $# -eq 0 ]; then
-    echo "Debe proporcionar una dirección IP como argumento."
+broadcast=$(ifconfig | awk '/broadcast/ {print $6}')
+if [ -z "$broadcast" ]; then
+    echo "No se pudo obtener la dirección de difusión (broadcast)."
     exit 1
 fi
 
-ip=$1
-
-IFS='.' read -r -a ip_array <<< "$ip"
+IFS='.' read -r -a ip_array <<< "$broadcast"
 
 if [ ${#ip_array[@]} -ne 4 ]; then
-    echo "La dirección IP proporcionada no es válida."
+    echo "La dirección de difusión proporcionada no es válida."
     exit 1
 fi
 
