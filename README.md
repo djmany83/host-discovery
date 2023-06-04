@@ -1,5 +1,3 @@
-# host-discovery
-
 # Host Discovery
 
 Este repositorio contiene un script de Bash llamado HostDiscovery.sh que te permite descubrir y enumerar los dispositivos activos en tu red local.
