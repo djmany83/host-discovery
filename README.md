@@ -11,7 +11,7 @@ Si encuentras algún problema o tienes dificultades para ejecutar el script en t
 Ten en cuenta que este script utiliza comandos y herramientas específicas de Linux, por lo que su compatibilidad con otros sistemas operativos puede variar.
 
 - Se requiere tener Bash instalado en tu sistema.
-- Debes conceder permisos de ejecución al archivo HostDiscovery.sh antes de ejecutarlo.
+- Debes conceder permisos de ejecución al archivo HostDiscover.sh antes de ejecutarlo.
 
 ## Instrucciones de uso
 
@@ -46,4 +46,4 @@ Ten en cuenta que este script utiliza comandos y herramientas específicas de Li
 - Asegúrate de que tu sistema esté conectado a la red local antes de ejecutar el script.
 - Ten en cuenta que este script utiliza comandos específicos de Linux y puede no ser compatible con otros sistemas operativos.
 
-¡Disfruta descubriendo los dispositivos activos en tu red local con Host Discovery!
+¡Disfruta descubriendo los dispositivos activos en tu red local con HostDiscover!
