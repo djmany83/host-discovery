@@ -22,7 +22,7 @@ for i in $(seq 2 254); do
             ttl=$(ping -c 1 $network.$i | awk -F'ttl=' '/ttl=/ {print $2}' | awk '{print $1}')
             if [ -n "$ttl" ]; then
                 if (( ttl <= 64 )); then
-                    os="Linux"
+                    os="Unix"
                 elif (( ttl <= 128 )); then
                     os="Windows"
                 else
